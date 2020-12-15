@@ -8,3 +8,4 @@ class RunCHrome():
 
 FF = RunCHrome()
 FF.testCHromelaunch()
+print(FF)
