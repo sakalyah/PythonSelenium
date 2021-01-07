@@ -27,9 +27,10 @@ class ByXpathCss:
         ClassNameElement = driver.find_element_by_class_name("displayed-class")
         if ClassNameElement is not None:
             print("ClassNameElement is Found")
-        TagElement = driver.find_element_by_tag_name("a")
+        TagElement = driver.find_element_by_tag_name("h1")
+        text = TagElement.text
         if TagElement is not None:
-            print("TagElement is Found")
+            print("TagElement is Found "+text)
 
 b = ByXpathCss()
 b.test()
