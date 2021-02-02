@@ -1,3 +1,4 @@
+from datetime import *
 from traceback import print_stack
 
 from selenium import webdriver
@@ -72,6 +73,14 @@ class HandyWrappers():
             print_stack()
             raise e
 
+    def takeScreenshot(self):
+        filename ='jin'+str(1000)+'.png'
+        destinationfile = ElementsandData.DestinationFIle + filename
+        try:
+           self.driver.save_screenshot(destinationfile)
+           print("Screenshot taken successfully")
+        except NotADirectoryError:
+            print("Screenshot Failed")
 
 
 

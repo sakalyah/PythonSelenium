@@ -17,6 +17,6 @@ class IMplicitDemo:
         hw.getelement2(By.XPATH,"//a[@href='/sign_in']").click()
         hw.getelement2(By.ID,"user_email").send_keys("abcdefgh@gmail.com")
         sleep(2)
-        driver.save_screenshot("D:\\PythonProject\\SeleniumProject\\SCREENSHOTS\\jin.png")
+        driver.save_screenshot(ElementsandData.DestinationFIle)
 a = IMplicitDemo()
 a.test()
