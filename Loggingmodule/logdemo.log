@@ -1,0 +1,15 @@
+WARNING:root:This is a Warning Message
+INFO:root:This is INformation
+DEBUG:root:Used While Debugging
+ERROR:root:Error Message
+CRITICAL:root:Critical Error
+2021-02-08 23:44:33,480:WARNING:This is a Warning Message
+2021-02-08 23:44:33,480:INFO:This is INformation
+2021-02-08 23:44:33,480:DEBUG:Used While Debugging
+2021-02-08 23:44:33,480:ERROR:Error Message
+2021-02-08 23:44:33,480:CRITICAL:Critical Error
+2021-02-09 00:25:42,572:WARNING:This is a Warning Message
+2021-02-09 00:25:42,572:INFO:This is INformation
+2021-02-09 00:25:42,572:DEBUG:Used While Debugging
+2021-02-09 00:25:42,572:ERROR:Error Message
+2021-02-09 00:25:42,572:CRITICAL:Critical Error
