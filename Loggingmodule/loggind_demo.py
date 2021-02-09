@@ -20,7 +20,8 @@ class loggind_demo():
 
     def test(self):
         #CReate Logger
-        logger = logging.getLogger('Harish')
+        #logger = logging.getLogger('Harish')
+        logger = logging.getLogger(loggind_demo.__name__)
         #Set Level
         logger.setLevel(logging.WARNING)
         #Create Console Handler and Set Level Info
@@ -28,7 +29,7 @@ class loggind_demo():
         c_handler.setLevel(logging.INFO)
 
         #Create Formatter
-        format = logging.Formatter('%(asctime)s %(levelname)s %(message)s %(levelno)s')
+        format = logging.Formatter('%(asctime)s -%(name)s %(levelname)s %(message)s %(levelno)s')
         c_handler.setFormatter(format)
 
         #Add Console Handler to Logger

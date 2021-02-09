@@ -1,0 +1,4 @@
+02/09/2021 04:14:13 PM - method3 - INFO: info message
+02/09/2021 04:14:13 PM - method3 - WARNING: warn message
+02/09/2021 04:14:13 PM - method3 - ERROR: error message
+02/09/2021 04:14:13 PM - method3 - CRITICAL: critical message
